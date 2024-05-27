@@ -8,6 +8,7 @@
   body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    background-color: #f2f2f2;
   }
   .event-button, .performance-button {
     background-color: #4CAF50;
@@ -21,6 +22,7 @@
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   .event-button:hover, .performance-button:hover {
     background-color: #45a049;
@@ -28,29 +30,36 @@
 </style>
 </head>
 <body>
-  <form action="https://ticket.rakuten.co.jp/cart/events/49977" method="post">
-    <input class="event-button" type="submit" value="eve49977"> 
-    <input name="keyword" type="hidden" value="B4ajLPeG4Hk9">
-    <span> - Event 49977 Description Here</span>
-  </form>
-  <p>&nbsp;</p>
-  <form action="https://ticket.rakuten.co.jp/cart/performances/307214" method="post">
-    <input class="performance-button" type="submit" value="per307214"> 
-    <input name="keyword" type="hidden" value="B4ajLPeG4Hk9">
-    <span> - Performance 307214 Description Here</span>
-  </form>
-  <p>&nbsp;</p>
-  <form action="https://ticket.rakuten.co.jp/cart/events/49941" method="post">
-    <input class="event-button" type="submit" value="eve49941"> 
-    <input name="keyword" type="hidden" value="B4ajLPeG4Hk9">
-    <span> - Event 49941 Description Here</span>
-  </form>
-  <p>&nbsp;</p>
-  <form action="https://ticket.rakuten.co.jp/cart/performances/307075" method="post">
-    <input class="performance-button" type="submit" value="per307075"> 
-    <input name="keyword" type="hidden" value="B4ajLPeG4Hk9">
-    <span> - Performance 307075 Description Here</span>
-  </form>
-  <p>&nbsp;</p>
+  <div style="margin-bottom: 20px;">
+    <form action="https://ticket.rakuten.co.jp/cart/events/49977" method="post">
+      <input class="event-button" type="submit" value="Event 49977"> 
+      <input name="keyword" type="hidden" value="B4ajLPeG4Hk9">
+    </form>
+    <p>Event 49977 Description Here</p>
+  </div>
+  
+  <div style="margin-bottom: 20px;">
+    <form action="https://ticket.rakuten.co.jp/cart/performances/307214" method="post">
+      <input class="performance-button" type="submit" value="Performance 307214"> 
+      <input name="keyword" type="hidden" value="B4ajLPeG4Hk9">
+    </form>
+    <p>Performance 307214 Description Here</p>
+  </div>
+  
+  <div style="margin-bottom: 20px;">
+    <form action="https://ticket.rakuten.co.jp/cart/events/49941" method="post">
+      <input class="event-button" type="submit" value="Event 49941"> 
+      <input name="keyword" type="hidden" value="B4ajLPeG4Hk9">
+    </form>
+    <p>Event 49941 Description Here</p>
+  </div>
+  
+  <div>
+    <form action="https://ticket.rakuten.co.jp/cart/performances/307075" method="post">
+      <input class="performance-button" type="submit" value="Performance 307075"> 
+      <input name="keyword" type="hidden" value="B4ajLPeG4Hk9">
+    </form>
+    <p>Performance 307075 Description Here</p>
+  </div>
 </body>
 </html>
