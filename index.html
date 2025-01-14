@@ -6,54 +6,72 @@
 <title>Events and Performances</title>
 <style>
   body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    background-color: #f2f2f2;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9fafb;
+    color: #333;
+    line-height: 1.6;
   }
-  .event-button, .performance-button {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 10px 20px;
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    font-size: 24px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    color: #222;
   }
-  .event-button:hover, .performance-button:hover {
-    background-color: #45a049;
+  .button {
+    display: block;
+    width: 100%;
+    padding: 12px 0;
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .button:hover {
+    background-color: #0056b3;
+  }
+  p {
+    font-size: 14px;
+    margin: 5px 0 15px;
+    color: #555;
   }
 </style>
 </head>
 <body>
-  <div style="margin-bottom: 20px;">
+  <div class="container">
+    <h1>Events and Performances</h1>
     <form action="https://ticket.rakuten.co.jp/cart/performances/331282" method="post">
-      <input class="event-button" type="submit" value="Performance 331282"> 
+      <button class="button" type="submit">Performance 331282</button>
       <input name="keyword" type="hidden" value="B4ajLPeG4Hk9">
     </form>
-    <p>Performance 331282 Description Here</p>
-  </div>
-  
-  <div style="margin-bottom: 20px;">
+    <p>Experience the thrilling performance of 331282. Don’t miss out!</p>
+
     <form action="https://ticket.rakuten.co.jp/cart/performances/331283" method="post">
-      <input class="performance-button" type="submit" value="Performance 331283"> 
+      <button class="button" type="submit">Performance 331283</button>
       <input name="keyword" type="hidden" value="B4ajLPeG4Hk9">
     </form>
-    <p>Performance 331283 Description Here</p>
-  </div>
+    <p>Join us for the spectacular event of 331283.</p>
 
-   <div style="margin-bottom: 20px;">
     <form action="https://ticket.rakuten.co.jp/cart/performances/331285" method="post">
-      <input class="performance-button" type="submit" value="Performance 331285"> 
+      <button class="button" type="submit">Performance 331285</button>
       <input name="keyword" type="hidden" value="B4ajLPeG4Hk9">
     </form>
-    <p>Performance 331285 Description Here</p>
+    <p>Be part of the unforgettable 331285 performance.</p>
   </div>
-  
-
 </body>
 </html>
